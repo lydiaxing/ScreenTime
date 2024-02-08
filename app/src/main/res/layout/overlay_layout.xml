@@ -1,0 +1,20 @@
+<!-- overlay_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="#80000000">
+
+<!--    <TextView-->
+<!--        android:id="@+id/overlayTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="#FFFFFF" />-->
+
+    <TextView
+        android:id="@+id/totalScreenTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screen Time Today: 00:00"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
